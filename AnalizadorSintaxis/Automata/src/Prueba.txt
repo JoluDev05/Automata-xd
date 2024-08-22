@@ -1,0 +1,21 @@
+program example(a, b, c);
+var x, y, z: integer;
+begin
+    x := 10;
+    y := 20;
+    z := x + y
+
+    while z >= 10 do
+    begin
+        z := z + 1 -x;
+    end;
+
+    if x <= y then
+    begin
+        z := z * 2;
+    end
+    else
+    begin
+        z := z / 2;
+    end;
+end.
