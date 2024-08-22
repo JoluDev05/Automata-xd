@@ -1,3 +1,5 @@
+//Hola
+
 public class Automata {
     public static void main(String[] args) {
         Compilador automata = new Compilador();
